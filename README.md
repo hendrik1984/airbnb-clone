@@ -6,8 +6,11 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+- ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
 
 * System dependencies
+- [Devise - Auth Login] https://github.com/heartcombo/devise
+- [Rspec Rails - Unit Test] https://github.com/rspec/rspec-rails
 
 * Configuration
 
@@ -21,4 +24,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+
