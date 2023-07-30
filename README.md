@@ -24,4 +24,10 @@ Things you may want to cover:
 
 * Deployment instructions
 
+* issues "Error: Undefined variable" in Rails sass compilation"
+- at app/assets/stylesheets/application.scss
+@import "application.tailwind";
+@import "_colors";
+@import "_header";
+the header must be put below color, because the header have dependencies to color, need to compile color first, so the system can provide $airbnb-color variable to be use by header
 
